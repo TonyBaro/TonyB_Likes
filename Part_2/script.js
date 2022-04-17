@@ -1,6 +1,11 @@
 console.log("page loaded...")
 
-var likeCount = [3,34]
+var likeCount = [5,34]
+
+function drawLikes(){
+    document.querySelector(".likes p").innerText = likeCount[0]+" Likes"
+}
+drawLikes()
 
 function buttonPress(element){
     // console.log("liking")
