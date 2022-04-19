@@ -1,6 +1,6 @@
 console.log("page loaded...")
 
-var likeCount = [5,34,5]
+var likeCount = [5,15,5]
 
 function drawLikes(){
     console.log("drawing likes")
@@ -21,15 +21,8 @@ function buttonUnpress(element){
     element.classList.remove("pressed")
 }
 
-function likesUp1(){
-    console.log("liking 1")
-    likeCount[0]++
+function likesUp(x){
+    // console.log("liking 1")
+    likeCount[x]++
 
-}
-
-function likesUp2(){
-    likeCount[1]++
-}
-function likesUp3(){
-    likeCount[2]++
 }
